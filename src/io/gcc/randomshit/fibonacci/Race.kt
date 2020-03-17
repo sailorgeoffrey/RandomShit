@@ -24,7 +24,7 @@ fun main() {
     val times = 13000
 
     val linkedListTime = measureTimeMillis {
-        repeat(times) {
+        repeat(times * 5000) {
             fibonacciWithLinkedList(times)
         }
     }
